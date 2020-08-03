@@ -1,4 +1,5 @@
 #!/bin/bash -x
+echo "Prime Numbers Simulation"
 read -p "Enter a number to check prime or not: " n
 count=0
 for (( i=1; i<=n; i++ ))
